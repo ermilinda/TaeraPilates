@@ -170,8 +170,6 @@ export default function Newsletter({
             </a>
           </div>
           <div className="founding__visual">
-            <div className="founding__arch founding__arch--outer" aria-hidden="true" />
-            <div className="founding__arch founding__arch--inner" aria-hidden="true" />
             <div className="founding__mat-wrap">
               <img className="founding__mat" src={matPhoto} alt="Woman stretching on a Pilates mat, seen from above" />
             </div>

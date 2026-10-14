@@ -321,17 +321,6 @@ img { display: block; max-width: 100%; }
 }
 .founding__arch--outer { width: 82%; max-width: 480px; height: 560px; background: #e2d2c3; }
 .founding__arch--inner { width: 56%; max-width: 330px; height: 420px; background: #dccaba; }
-.founding__arch::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  right: 0;
-  bottom: auto;
-  left: 0;
-  height: 112px;
-  border-radius: 0 0 999px 999px;
-  background: inherit;
-}
 .founding__mat-wrap {
   position: relative;
   z-index: 1;
@@ -475,7 +464,6 @@ img { display: block; max-width: 100%; }
   .founding__visual { position: absolute; right: 12px; top: 24px; bottom: 24px; width: 42%; height: auto; }
   .founding__arch--outer { width: 120%; height: 80%; }
   .founding__arch--inner { width: 80%; height: 60%; }
-  .founding__arch::after { height: 64px; }
   .founding__mat { height: 100%; }
 
   /* Facts side by side, smaller */
